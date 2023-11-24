@@ -2,8 +2,8 @@ name: Code checks
 
 on:
   push:
-    branches: [ master ]
-  pull_requests: [ master ]
+    branches: [ main ]
+  pull_requests: [ main ]
 
 jobs:
   build:
